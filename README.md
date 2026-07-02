@@ -2,7 +2,7 @@
 
 CodePath WEB103 Final Project
 
-Designed and developed by: [your names here]
+Designed and developed by: Sam Kosal, Teo Liang, Jianxin Lin, Hien Vo Minh, Ethan Winch
 
 🔗 Link to deployed app:
 
