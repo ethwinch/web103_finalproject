@@ -4,8 +4,8 @@ Reference the Writing User Stories final project guide in the course portal for 
 
 ## Outline User Roles
 
-1: Collector: a user who is cultivating the media in the library.
-2: Lurker: a user who is only there to browse the collections of Collectors. 
+1: Collector: a user who is cultivating the media in the library.<br />
+2: Lurker: a user who is only there to browse the collections of Collectors. <br />
 
 ## Draft User Stories
 
