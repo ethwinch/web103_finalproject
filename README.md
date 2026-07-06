@@ -76,6 +76,12 @@ Backend:
 
 [gif goes here]
 
+### Access Control
+
+<p>Users can only create/update/delete media from a collection if they are logged into the account associated with that collection.</p>
+
+[gif goes here]
+
 <!--
 ### [ADDITIONAL FEATURES GO HERE - ADD ALL FEATURES HERE IN THE FORMAT ABOVE; you will check these off and add gifs as you complete them]
 -->
