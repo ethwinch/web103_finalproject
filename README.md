@@ -89,3 +89,90 @@ Backend:
 ## Installation Instructions
 
 [instructions go here]
+
+---
+
+## Milestone 1 Technical Additions
+
+### Tech Stack (Detailed)
+
+**Frontend**
+- React (component-based UI)
+- React Router (dynamic routing, nested/protected routes)
+- Fetch or Axios (API communication)
+- CSS Modules or plain CSS (styling)
+- Optional UI utility library for modal/slide-out panel interactions
+
+**Backend**
+- Node.js + Express.js (REST API and server-side logic)
+- express-session + connect-pg-simple (session-based authentication stored in PostgreSQL)
+- Multer (multipart/form-data handling for image uploads)
+- Cloudinary SDK (media cover image hosting)
+
+**Database**
+- PostgreSQL
+- SQL migrations (recommended: node-pg-migrate/Knex/Drizzle migration flow)
+
+**Deployment**
+- Render (frontend and backend services)
+- Managed PostgreSQL (Render Postgres or equivalent)
+- Cloudinary (external asset storage)
+
+### Feature Requirements Breakdown
+
+#### Baseline Features (Required)
+1. **Express.js backend + React frontend with dynamic routes**
+   - Backend routes will be namespaced under `/api/*`.
+   - Frontend routes include public browse routes and protected personal management routes.
+2. **RESTful API with GET, POST, PATCH, DELETE**
+   - CRUD flows for media, tags, library entries, and profiles.
+3. **One-to-many + many-to-many relationships**
+   - One-to-many: users→library_entries, media→library_entries, users→tags.
+   - Many-to-many: library_entries↔tags through `library_entry_tags`.
+4. **Dynamic routing with React Router**
+   - Example patterns: `/media/:mediaId`, `/users/:userId/collections`, `/library/:entryId/edit`.
+5. **Hierarchical React component design**
+   - Route-level pages compose reusable components (cards, filters, modals, forms).
+6. **At least one redirection + one same-page interaction**
+   - Redirection: after login/logout and after create/edit flows.
+   - Same-page interaction: tag filter/sort updates results without full page reload.
+7. **Deploy on Render**
+   - Final production deployment will include environment-based API/asset configuration.
+
+#### Custom Features (All 5 Planned)
+1. **Validation before POST/PATCH persistence**
+   - Server validates required fields, enum constraints, ownership, and relationship existence.
+2. **Filtering/sorting by custom tags**
+   - Users can filter their collection by one or multiple custom tags and media type.
+3. **Slide-out pane or modal for create/edit**
+   - Reusable modal system for media entries, library entries, and tag management.
+4. **Graceful error handling**
+   - Consistent backend error payload shape and user-friendly frontend error states.
+5. **One-to-one users↔user_profiles**
+   - Every registered user has exactly one profile row with display metadata.
+
+#### Stretch Features (All 5 Planned)
+1. **Authentication + Protected Routes**
+   - Session cookie auth gates personal pages and mutating actions.
+2. **Role and ownership restrictions**
+   - Visitor/Collector/Creator/Curator capabilities enforced in API and UI.
+3. **Loading spinners**
+   - Async pages show loading states during fetch and mutation requests.
+4. **Toast feedback**
+   - Success/error toasts for create, update, delete, login/logout actions.
+5. **Cloud image upload**
+   - Creators (and Curators if allowed) can upload covers to Cloudinary.
+
+### Role Summary
+
+- **Visitor (Guest)**: Browse public collections and global media catalog in read-only mode.
+- **Collector (Authenticated)**: Build and organize personal library, manage personal tags.
+- **Creator (Authenticated)**: Collector permissions plus ability to create global media entries and upload covers.
+- **Curator (Authenticated)**: Emphasis on curation quality, organization, and surfacing valuable content.
+
+### API and Architecture Direction (Milestone 1 Plan)
+
+- API will enforce both **authentication** (is logged in) and **authorization** (owns resource or has role privilege).
+- Mutating endpoints will check ownership for `library_entries` and `tags` to prevent cross-user modification.
+- Tagging design uses a join table to support multi-tag assignment per library item while preventing duplicates.
+- Frontend state will separate global catalog browsing from personal collection management for clarity and security.

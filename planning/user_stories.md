@@ -23,3 +23,25 @@ Reference the Writing User Stories final project guide in the course portal for 
 
 
 
+
+## Milestone 1 Role Expansion (Collector's Corner)
+
+<b>Visitor (Guest)</b>: a non-authenticated user who can browse public collections and global media in read-only mode.<br />
+<b>Collector</b>: a logged-in user who builds and organizes a personal media library using custom tags.<br />
+<b>Creator</b>: a logged-in user who can do everything a Collector can, plus create global media entries and upload custom covers.<br />
+<b>Curator</b>: a logged-in user who emphasizes quality organization and helps surface meaningful media for the community.<br />
+
+<i>Note: The existing "Lurker" role concept maps directly to the Visitor (Guest) experience.</i><br />
+
+## Additional User Stories (Expanded to 20 Total)
+
+11. As a Visitor, I want to browse public collections without creating an account so that I can evaluate the platform before signing up.<br /><br />
+12. As a Visitor, I want to open a media detail page from a collection so that I can quickly understand why it was added.<br /><br />
+13. As a Collector, I want to add existing media from the global catalog to my personal library so that I can build my collection efficiently.<br /><br />
+14. As a Collector, I want to create custom tags (for example: "comfort watch", "study music", "sci-fi favorites") so that my library organization reflects my personal system.<br /><br />
+15. As a Collector, I want to filter my library by one or more tags so that I can immediately find media that fits a specific mood or purpose.<br /><br />
+16. As a Collector, I want to edit or remove only my own library entries so that I can maintain control over my personal collection.<br /><br />
+17. As a Creator, I want to create a new media record when an item is missing from the catalog so that niche or independent works can still be collected.<br /><br />
+18. As a Creator, I want to upload a custom cover image for new media so that entries are visually recognizable and attractive.<br /><br />
+19. As a Curator, I want to add high-quality descriptive metadata and consistent categorization so that the shared catalog remains useful and easy to navigate.<br /><br />
+20. As an authenticated user, I want session-based login/logout and protected routes so that my personal library and editing controls are secure.<br /><br />
