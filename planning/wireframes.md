@@ -7,7 +7,7 @@ Reference the Creating an Entity Relationship Diagram final project guide in the
 ⭐User Profile (Logged In)<br />
 ⭐User Profile (Logged Out)<br />
 ⭐Sort User's Media<br />
-⭐Media Detail View<br />
+⭐Media Detail View<br /><br />
 Wireframes to be Added:
 - Add Media Form (Modal)
 - Edit/Update Media Form (Modal)
