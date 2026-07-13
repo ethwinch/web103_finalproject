@@ -3,12 +3,15 @@
 Reference the Creating an Entity Relationship Diagram final project guide in the course portal for more information about how to complete this deliverable.
 
 ## List of Pages
+⭐Browse Collections
+⭐User Profile (Logged In)
+⭐User Profile (Logged Out)
+⭐Sort User's Media
+⭐Media Detail View
 
-[👉🏾👉🏾👉🏾 List the pages you expect to have in your app, with a ⭐ next to pages you have wireframed]
+## Wireframe 1: Browse Collections
 
-## Wireframe 1: [page title]
-
-[👉🏾👉🏾👉🏾 include wireframe 1]
+<img src="./Browse_Collections.jpg" />
 
 ## Wireframe 2: [page title]
 
