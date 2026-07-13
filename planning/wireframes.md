@@ -3,11 +3,11 @@
 Reference the Creating an Entity Relationship Diagram final project guide in the course portal for more information about how to complete this deliverable.
 
 ## List of Pages
-⭐Browse Collections
-⭐User Profile (Logged In)
-⭐User Profile (Logged Out)
-⭐Sort User's Media
-⭐Media Detail View
+⭐Browse Collections<br />
+⭐User Profile (Logged In)<br />
+⭐User Profile (Logged Out)<br />
+⭐Sort User's Media<br />
+⭐Media Detail View<br />
 
 ## Wireframe 1: Browse Collections
 
