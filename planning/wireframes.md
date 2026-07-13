@@ -10,6 +10,8 @@ Reference the Creating an Entity Relationship Diagram final project guide in the
 ⭐Media Detail View<br />
 - Add Media Form (Modal)
 - Edit/Update Media Form (Modal)
+- Add Section (Modal)
+- Edit Profile (Page -> Profile pic, about me text, currently enjoying text)
 
 ## Wireframe 1: Browse Collections
 
