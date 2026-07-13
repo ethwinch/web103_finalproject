@@ -13,12 +13,19 @@ Reference the Creating an Entity Relationship Diagram final project guide in the
 
 <img src="./wireframes/Browse_Collections.jpg" />
 
-## Wireframe 2: [page title]
+## Wireframe 2: User Profile (Logged In)
 
-[👉🏾👉🏾👉🏾 include wireframe 2]
+<img src="./wireframes/User_Profile_Logged_In.jpg" />
 
-## Wireframe 3: [page title]
+## Wireframe 3: User Profile (Logged Out)
 
-[👉🏾👉🏾👉🏾 include wireframe 3]
+<img src="./wireframes/User_Profile_Logged_Out.jpg" />
 
-[👉🏾👉🏾👉🏾 include more wireframes as desired]
+## Wireframe 4: Sort User's Media
+
+<img src="./wireframes/Sort_Users_Media.jpg" />
+
+## Wireframe 5: Media Detail View
+
+<img src="./wireframes/Media_Detail_View.jpg" />
+
