@@ -26,4 +26,4 @@ Sparse communication and uneven distribution of workload.
 
 ### 3. What additional support will you need in upcoming units as you continue to work on your final project?
 
-We may need to cut back on certain features given the time limit and lack of time to work on the project from group members.
+We may need to cut back on certain features given the time limit and lack of time to work on the project from group members. It may be helpful to simplify this project by focusing on implementing the individual user profile page, sort user's media page, and details view page. The ability to browse user collections can be added if there's time at the end. The hardest part will be implementing the ability to add/update/delete  media in the collection, add/update user' profile pic, about me, and current media, handling logged in vs. logged out permissions & UI, and filtering media within the collection.
