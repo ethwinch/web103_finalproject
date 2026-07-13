@@ -8,6 +8,8 @@ Reference the Creating an Entity Relationship Diagram final project guide in the
 ⭐User Profile (Logged Out)<br />
 ⭐Sort User's Media<br />
 ⭐Media Detail View<br />
+- Add Media Form (Modal)
+- Edit/Update Media Form (Modal)
 
 ## Wireframe 1: Browse Collections
 
