@@ -11,7 +11,7 @@ Reference the Creating an Entity Relationship Diagram final project guide in the
 
 ## Wireframe 1: Browse Collections
 
-<img src="./Browse_Collections.jpg" />
+<img src="./wireframes/Browse_Collections.jpg" />
 
 ## Wireframe 2: [page title]
 
